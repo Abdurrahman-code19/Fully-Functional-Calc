@@ -13,33 +13,29 @@
         <!-- Display Screen -->
         <div class="display" id="display">0</div>
 
-
         <div class="buttons">
 
-
-            <button class="btn clear" onclick="clearAll()">C</button>
-
-
             <button class="btn number" onclick="pressNumber(9)">9</button>
-            <button class="btn operator" onclick="setOperator('+')">+</button>
-            <button class="btn operator" onclick="setOperator('×')">×</button>
-
             <button class="btn number" onclick="pressNumber(8)">8</button>
+            <button class="btn clear" onclick="clearAll()">AC</button>
+            <button class="btn clear" onclick="clearEntry()">C</button>
+
             <button class="btn number" onclick="pressNumber(7)">7</button>
             <button class="btn number" onclick="pressNumber(6)">6</button>
+            <button class="btn operator" onclick="setOperator('×')">×</button>
             <button class="btn operator" onclick="setOperator('÷')">÷</button>
+            
 
             <button class="btn number" onclick="pressNumber(5)">5</button>
             <button class="btn number" onclick="pressNumber(4)">4</button>
             <button class="btn number" onclick="pressNumber(3)">3</button>
-            <button class="btn operator" onclick="setOperator('-')">-</button>
+            <button class="btn operator" onclick="setOperator('+')">+</button>
+            
 
             <button class="btn number" onclick="pressNumber(2)">2</button>
             <button class="btn number" onclick="pressNumber(1)">1</button>
-
-
             <button class="btn zero" onclick="pressNumber(0)">0</button>
-
+            <button class="btn operator" onclick="setOperator('-')">-</button>
 
             <button class="btn equal" onclick="calculate()">=</button>
 
